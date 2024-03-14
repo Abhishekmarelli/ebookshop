@@ -1,7 +1,20 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const PageNotFound = () => {
   return (
-    <div>PageNotFound</div>
+    <div className="grid h-screen place-content-center bg-white px-4 dark:bg-gray-800">
+  <div className="text-center">
+    <h1 className="text-9xl font-black text-gray-500">404</h1>
+
+    <p className="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-gray-500">Uh-oh!</p>
+
+    <p className="mt-4 text-gray-500">We can't find that page.</p>
+
+    <Link to="/" className="mt-6 inline-block rounded bg-indigo-600 px-5 py-3 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring">
+      Go Back Home
+    </Link>
+  </div>
+</div>
   )
 }
