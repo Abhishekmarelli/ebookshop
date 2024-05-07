@@ -267,11 +267,26 @@
           "best_seller": true
         }
       ],
-     
       "id": 1
     }
   ],
   "users": [
-
+    {
+      "email": "abhishek.marelli@gmail.com",
+      "password": "$2a$10$iEDJ0w/JySHBXYyTrnhFQ.v8Ci.rQIq6YeQqILrafVfpsxxlZypbK",
+      "name": "abhishek",
+      "id": 1
+    },
+    {
+      "email": "mijakar944@adstam.com",
+      "password": "$2a$10$MyEA3aNTE0xnGe66z5zBVOqh6nfiO8DGCKsP9X4ProYW7GfNVWdoC",
+      "name": "Abhishek Reddy Marelli",
+      "id": 2
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "$2a$10$5z2IRFQRK5GhZLaUazq/VesCafnhcR88DUhjm0PGQ7ojFKP3ne0hy",
+      "id": 3
+    }
   ]
 }
